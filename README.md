@@ -1,1 +1,1 @@
-# Next-Word-Prediction-using-LSTM-GRU
+# Next-Word-Prediction-using-LSTM-and-GRU

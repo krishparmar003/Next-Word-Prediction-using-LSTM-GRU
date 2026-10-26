@@ -44,10 +44,10 @@ Both models share the same general architecture: `Embedding → LSTM/GRU layer(s
 Next-Word-Prediction-using-LSTM-GRU/
 │
 ├── experiments.ipynb        # Data prep, training & evaluation of both LSTM and GRU
-├── app-lstm.py              # Streamlit app for the LSTM model
-├── app-gru.py               # Streamlit app for the GRU model
-├── lstm_model.h5            # Saved LSTM model
-├── gru_model.h5             # Saved GRU model
+├── lstm-app.py              # Streamlit app for the LSTM model
+├── gru-app.py               # Streamlit app for the GRU model
+├── next_word_lstm.h5        # Saved LSTM model
+├── next_word_gru.h5         # Saved GRU model
 ├── tokenizer.pickle         # Saved tokenizer (if used)
 ├── requirements.txt         # Python dependencies
 └── README.md

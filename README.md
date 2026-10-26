@@ -44,8 +44,8 @@ Both models share the same general architecture: `Embedding → LSTM/GRU layer(s
 Next-Word-Prediction-using-LSTM-GRU/
 │
 ├── experiments.ipynb        # Data prep, training & evaluation of both LSTM and GRU
-├── app_lstm.py              # Streamlit app for the LSTM model
-├── app_gru.py               # Streamlit app for the GRU model
+├── app-lstm.py              # Streamlit app for the LSTM model
+├── app-gru.py               # Streamlit app for the GRU model
 ├── lstm_model.h5            # Saved LSTM model
 ├── gru_model.h5             # Saved GRU model
 ├── tokenizer.pickle         # Saved tokenizer (if used)
@@ -82,12 +82,12 @@ py -3.10 -m venv myenv
 
 **Windows (Command Prompt):**
 ```bash
-myenv\Scripts\activate
+myenv\Scripts\activate.bat
 ```
 
 **Windows (PowerShell):**
 ```powershell
-myenv\Scripts\Activate.ps1
+myenv\Scripts\activate
 ```
 
 **macOS / Linux:**
@@ -169,29 +169,3 @@ The app opens in your browser at `http://localhost:8501`. Enter a phrase and cli
 | Training speed | Slower | Faster |
 | Accuracy | *add your result* | *add your result* |
 
----
-
-## 🔮 Future Improvements
-
-- Show top-k predictions with probabilities
-- Train on a larger and more diverse corpus
-- Add Bidirectional LSTM/GRU and attention
-- Combine both models into a single Streamlit app with a model selector
-- Deploy on Streamlit Community Cloud
-
----
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome. Feel free to open an issue or submit a pull request.
-
----
-
-## 👤 Author
-
-**Krish Parmar**
-- GitHub: [@krishparmar003](https://github.com/krishparmar003)
-
----
-
-⭐ If you found this project useful, consider giving it a star!
